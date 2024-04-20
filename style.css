@@ -32,6 +32,7 @@ body{
 }
 .info .text span{
   line-height: 1.6;
+  color: white;
 }
 .info .social-button{
   margin-top: 20px;
@@ -48,12 +49,16 @@ body{
 }
 .info .social-button i{
   font-size: 25px;
-  color: red;
+  color:red;
 }
 
 .info .social-button button:hover{
   background-color: red;
 }
 .info .social-button i:hover{
+  color: white;
+}
+.text.km
+{
   color: white;
 }
