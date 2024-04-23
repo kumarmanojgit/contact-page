@@ -58,7 +58,70 @@ body{
 .info .social-button i:hover{
   color: white;
 }
-.text.km
-{
+
+form .sign{
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: red;
+  padding: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+form .sign i{
+  font-size: 50px;
   color: white;
+  margin-top: 10px;
+}
+.input-control{
+  width: 100%;
+  margin: 10px 0px 0px 50px;
+  position: relative;
+}
+form label{
+  color: white;
+  font-size: 20px;
+}
+form input , form textarea{
+  width: 80%;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid white;
+  padding: 10px 0;
+  font-size: 16px;
+  background-color: transparent;
+  color: white;
+}
+
+form button{
+  width: 80%;
+  padding: 10px 0;
+  background-color: white;
+  color: red;
+  font-size: 20px;
+  border-radius: 10px;
+}
+form button:hover{
+  background-color: red;
+  color: white;
+}
+
+@media(max-width: 857px){
+  
+  .container h1{
+      margin-top: 30px;
+  }
+
+  .form-container{
+      grid-template-columns: 900px;
+      grid-template-rows: 400px 800px; 
+      margin-left: 50px;
+      margin-top: 100px;
+  }
+
+  form{
+      margin-top: 120px;
+  }
 }
